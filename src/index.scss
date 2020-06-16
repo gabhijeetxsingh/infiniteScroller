@@ -1,0 +1,38 @@
+body {
+    background-color: #D5DBDB;
+
+    .user-box {
+        padding : 4px;
+        margin: auto;
+        margin-top: 4px;
+        width: 400px;
+        border : 1px solid #424949;
+        display: flex;
+        border-radius: 4px;
+        background-color: #F3E5F5;
+
+        .user-info {
+            display: flex;
+            flex-direction: column;
+            padding: 8px;
+
+            .name {
+                font-size: 20px;
+                font-weight: bold;
+                color : #D68910;
+            }
+
+            .email {
+                font-size: 16px;
+                color: #90A4AE;
+            }
+        }
+    }
+
+    .loader-center {
+        //align-self: center;
+        display: flex;
+        justify-content: center;
+    
+    }
+}
